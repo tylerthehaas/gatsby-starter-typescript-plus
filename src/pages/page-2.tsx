@@ -5,7 +5,9 @@ import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
 
-const PageTwo = () => (
+interface PageTwoProps {}
+
+const PageTwo: React.SFC<PageTwoProps> = () => (
   <IndexLayout>
     <Page>
       <Container>
