@@ -5,7 +5,9 @@ import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
 
-const IndexPage = () => (
+interface IndexPageProps {}
+
+const IndexPage: React.SFC<IndexPageProps> = () => (
   <IndexLayout>
     <Page>
       <Container>
